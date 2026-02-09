@@ -114,10 +114,7 @@ MAX_BUY_TAX = 10.0          # Max acceptable tax
 
 ## 🔐 Security Features
 
-- **Honeypot Detection**: Checks tokens via `honeypot.is` API before buying
-- **Tax Limits**: Configurable max buy/sell tax thresholds
-- **Flashbots Protect**: Private mempool to prevent sandwich attacks
-- **Environment Variables**: Secrets never hardcoded
+![Security Features](assets/security_features.png)
 
 ---
 
