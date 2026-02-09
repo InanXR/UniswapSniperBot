@@ -126,18 +126,7 @@ MAX_BUY_TAX = 10.0          # Max acceptable tax
 
 ## 📚 Key Concepts
 
-### Uniswap V5 (Feb 2026)
-
-- **Gas Efficiency**: 40% reduction via off-chain ZK proof verification
-- **Invisible DeFi**: Institutional-grade API abstraction layer
-- **Hooks 2.0**: Enhanced custom logic with native limit order support
-- **Unichain Integration**: Native L2 routing with 200ms Flashblocks
-
-### MEV & Flashbots
-
-- **MEV**: Maximal Extractable Value from transaction ordering
-- **Flashbots Protect**: Private tx submission to avoid frontrunning
-- **EIP-1559**: Priority fees for faster inclusion
+![Key Concepts](assets/key_concepts.png)
 
 ---
 
