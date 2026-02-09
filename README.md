@@ -16,14 +16,7 @@ A high-performance liquidity sniping bot for **Uniswap V4** and compatible DEXs,
 
 ## ⚡ Features
 
-| Feature                | Description                                       |
-| ---------------------- | ------------------------------------------------- |
-| **Uniswap V4**         | Supports latest PoolManager singleton pattern     |
-| **Async WebSocket**    | Real-time mempool monitoring with `eth_subscribe` |
-| **Flashbots Protect**  | Private transactions to prevent frontrunning      |
-| **Honeypot Detection** | API-based scam token filtering                    |
-| **EIP-1559 Gas**       | Dynamic priority fee optimization                 |
-| **Multi-Chain**        | ETH Mainnet, Base, Arbitrum ready                 |
+![Features Map](assets/features_map.png)
 
 ---
 
@@ -70,23 +63,21 @@ python sniper.py
 **Expected Output:**
 
 ```
-============================================================
-  EVM MEMPOOL SNIPER BOT v1.0.0
-  Uniswap V4 | Flashbots Protect | Multi-Chain
-============================================================
+=================================================================
+  UNISWAP SNIPER BOT v1.0.0
+  Mempool Monitor | Flashbots Protect | Multi-Chain
+=================================================================
 
-[15:42:01] 🔗 Connected: Ethereum Mainnet [Block #19842103]
-[15:42:01] 📡 Subscribed: newPendingTransactions
-[15:42:01] 🔍 Monitoring Uniswap V4 PoolManager...
-[15:42:02] 🔍 Scanning Block #19842103...
-[15:42:03] 🔍 Scanning Block #19842104...
-[15:42:04] ⚡ NEW PAIR: WETH/0x6B17547...
-[15:42:04] 🔒 Honeypot Check: ✅ SAFE (Buy: 0.0%, Sell: 0.0%)
-[15:42:04] 💰 Preparing snipe: 0.5 ETH → 0x6B17547...
-[15:42:04] ⛽ Gas: 42.0 Gwei | Priority: 2.5 Gwei
-[15:42:04] 🚀 Submitting via Flashbots Protect...
-[15:42:05] ✅ Private TX Sent: 0x3b8a7c9d...a7b
-[15:42:05] 🛡️ MEV Protection: ACTIVE
+[2024-05-22 14:30:15] INFO: Starting Ethereum mempool monitor...
+[2024-05-22 14:30:17] INFO: Connected to Sepolia Testnet via Infura.
+[2024-05-22 14:31:02] EVENT: PairCreated detected on Uniswap V2!
+[2024-05-22 14:31:02] EVENT: PairCreated detected on Uniswap V2! Token: 0x....8f2a (TEST/ETH)
+[2024-05-22 14:31:02] ACTION: Initiating buy transaction...  Gas: 150 gwei
+[2024-05-22 14:31:03] SUCCESS: Buy transaction confirmed in block 5678901.
+[2024-05-22 14:31:05] INFO: Calculating arbitrage opportunity...
+[2024-05-22 14:31:06] ACTION: Executing sell on Sushiswap...
+[2024-05-22 14:31:08] SUCCESS: Sell transaction confirmed. Simulated Profit: +0.045 ETH
+[2024-05-22 14:31:10] INFO: Continuing mempool scan...
 ```
 
 ---
