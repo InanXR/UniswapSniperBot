@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/evm_sniper_bot_logo.png" alt="EVM Sniper Bot Logo" width="600">
+</p>
+
 # 🎯 EVM Mempool Sniper Bot
 
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
