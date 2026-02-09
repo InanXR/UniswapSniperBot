@@ -123,13 +123,7 @@ MAX_BUY_TAX = 10.0          # Max acceptable tax
 
 ## 🛠️ Technical Stack
 
-| Component      | Technology             |
-| -------------- | ---------------------- |
-| Runtime        | Python 3.10+ / asyncio |
-| Web3           | web3.py 7.14.0         |
-| HTTP           | aiohttp (async)        |
-| WebSocket      | websockets 12.0        |
-| MEV Protection | Flashbots Protect RPC  |
+![Technical Stack](assets/technical_stack_table.png)
 
 ---
 
@@ -151,26 +145,13 @@ MAX_BUY_TAX = 10.0          # Max acceptable tax
 
 ## ⚠️ Disclaimer
 
-**This software is for educational and portfolio demonstration purposes only.**
-
-- Cryptocurrency trading carries significant financial risk
-- Past performance does not guarantee future results
-- Never invest more than you can afford to lose
-- This code is NOT financial advice
+![Disclaimer](assets/disclaimer.png)
 
 ---
 
 ## 📄 License
 
 MIT License - see [LICENSE](LICENSE) for details.
-
----
-
-## 🤝 Contributing
-
-Contributions welcome! Please read the contributing guidelines first.
-
----
 
 <p align="center">
   Built with ❤️ for the Web3 community
